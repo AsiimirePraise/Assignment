@@ -1,339 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CORECLEEN SOLUTIONS LIMITED</title>
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
-    <!-- start of the header -->
-    <header>
-      <nav>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CORECLEEN SOLUTIONS LIMITED</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <!-- start of the header -->
+  <header>
+    <nav>
+      <img src="./Assets/icon.png" alt="Corecleen Logo" />
+      <p>CORECLEEN <span>SOLUTIONS LIMITED</span></p>
+      <ul id="navMenu">
+        <li><a href="#hero_section">Home</a></li>
+        <li><a href="#feature_container">Our-Services</a></li>
+        <li><a href="#testimonials_section">Testimonials</a></li>
+        <li><a href="#footer">Contact-Us</a></li>
+      </ul>
+      <div class="toggle" id="toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+  <!-- end of the header -->
+  <main>
+    <section class="hero" id="hero_section">
+      <div class="hero-background">
+        <img src="https://www.bondcleaninginmelbourne.com.au/wp-content/uploads/2021/08/kitchen-cleaning.jpg"
+          alt="Eco-friendly cleaning" />
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <div class="text-carousel">
+          <div class="carousel-slide active">
+            <h1 class="hero-title">BREATHE IN A CLEAN SPACE</h1>
+            <p class="hero-subtitle">
+              Responsible for your job and the environment
+            </p>
+            <p class="hero-description">
+              We take responsibility to complete customers' required jobs.
+            </p>
+          </div>
+          <div class="carousel-slide">
+            <h1 class="hero-title">YOUR CLEANING EXPERTS</h1>
+            <p class="hero-subtitle">
+              Tailored solutions for your business needs
+            </p>
+            <p class="hero-description">
+              We provide our clients with top-quality professional and
+              friendly cleaning services.
+            </p>
+          </div>
+          <div class="carousel-slide">
+            <h1 class="hero-title">
+              A TOP QUALITY CLEANING COMPANY IN UGANDA
+            </h1>
+            <h3 class="hero-subtitle">
+              Most Trusted by People, Businesses, and Organizations
+            </h3>
+            <p class="hero-description">
+              We take care of your cleaning needs while you concentrate on
+              running your business.
+            </p>
+          </div>
+        </div>
+
+        <div class="hero-button-container">
+          <button class="hero-button" id="cta-button">Sign up</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="emergency-banner">
+      <div class="banner-container">
+        <div class="call-section">
+          <h2>CALL US NOW</h2>
+          <a href="tel:+256707265146" class="phone-number">(+256) 707265146</a>
+        </div>
+
+        <div class="service-item">
+          <div class="icon-circle">
+            <img src="./Assets/emergency.jpg" />
+          </div>
+          <div class="service-content">
+            <h3>QUICK CLEANING</h3>
+            <p>
+              Even in a state of urgency, we have fast and efficient emergency
+              cleaners
+            </p>
+          </div>
+        </div>
+
+        <div class="service-item">
+          <div class="icon-circle">
+            <img src="./Assets/clean ground.png" alt="" />
+          </div>
+          <div class="service-content">
+            <h3>FULLY GUARANTEED</h3>
+            <p>
+              We provide the finest quality and eco-friendly cleaning services
+              and solutions
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- feature section -->
+    <section class="feature_container" id="feature_container">
+      <div class="solutions">
+        <center>
+          <h2>Corecleen Solutions- Our services</h2>
+        </center>
+        <center>
+          <p>
+            We are committed to providing our clients with 
+            top-quality professional and friendly cleaning services 
+            that supersede their expectations. We make the interests of our 
+            clients our number one priority that earns us their trust and loyalty.
+          </p>
+        </center>
+      </div>
+      <div class="my_features">
+        <div class="feature_card">
+          <img src="./Assets/roof.jpeg" alt="Christmas " />
+          <h2>Roof Cleaning</h2>
+          <p>
+            Remove moss, debris, and stains to restore your roof's
+            appearance."
+          </p>
+        </div>
+        <div class="feature_card">
+          <img src="./Assets/Deep cleaning.webp" alt="Deep cleaning " />
+          <h2>Deep cleaning</h2>
+          <p>
+            Thorough cleaning of every corner for a refreshed living space.
+          </p>
+        </div>
+        <div class="feature_card">
+          <img src="./Assets/Garbage collection.jpg" alt="Garbage collection" />
+          <h2>Garbage collection</h2>
+          <p>
+            Reliable, scheduled waste removal to keep your premises spotless.
+          </p>
+        </div>
+        <div class="feature_card">
+          <img src="./Assets/windowcleaning.jpg" alt="Window cleaning" />
+          <h2>Window cleaning</h2>
+          <p>
+            Crystal-clear windows using streak-free techniques and
+            eco-friendly products.
+          </p>
+        </div>
+        <div class="feature_card">
+          <img src="./Assets/Upholstery-Cleaning.jpg" alt="Upholstery Cleaning " />
+          <h2>Upholstery Cleaning</h2>
+          <p>
+            Gentle yet powerful cleaning to refresh your furniture’s fabric.
+          </p>
+        </div>
+        <div class="feature_card">
+          <img src="./Assets/post.jpeg" alt="Post-construction cleaning" />
+          <h2>Post-construction cleaning</h2>
+          <p>
+            Remove dust, debris, and residue after construction or renovation
+            work.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials Section -->
+    <section class="testimonials-section" id="testimonials_section">
+      <div class="testimonials-container">
+        <div class="testimonials-header">
+          <h2>What Our Clients Say</h2>
+        </div>
+
+        <div class="testimonial-carousel">
+          <div class="testimonial-card active">
+            <div class="testimonial-header">
+              <div class="profile-circle"><img src="./Assets/Emily.png" alt="EM"></div>
+              <div class="reviewer-info">
+                <h3>Emily Morgan</h3>
+                <span class="test-badge">Residential Cleaning – April 2025</span>
+              </div>
+            </div>
+            <p class="testimonial-quote">
+              "Corecleen Solutions exceeded my expectations! My apartment was
+              spotless, and they even tackled areas I didn’t expect. I highly
+              recommend them for anyone needing a thorough home clean."
+            </p>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <div class="profile-circle"><img src="./Assets/david.png" alt="DP"></div>
+              <div class="reviewer-info">
+                <h3>David Peterson</h3>
+                <span class="test-badge">Office Cleaning – March 2025</span>
+              </div>
+            </div>
+            <p class="testimonial-quote">
+              "Our office looks brand new after every visit from Corecleen.
+              The team is punctual, professional, and leaves no corner
+              untouched. It’s been a game changer for our work environment."
+            </p>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <div class="profile-circle"><img src="./Assets/Linda.png" alt="LK"></div>
+              <div class="reviewer-info">
+                <h3>Linda Kasozi</h3>
+                <span class="test-badge">Post-Construction Cleaning – February 2025</span>
+              </div>
+            </div>
+            <p class="testimonial-quote">
+              "After our renovation, Corecleen made the entire place move-in
+              ready. They handled dust, debris, and windows with amazing
+              attention to detail. I wouldn’t go with anyone else!"
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- end the main content -->
+  <footer class="footer" id="footer">
+    <div class="footer-container">
+      <div class="footer-logo">
         <img src="./Assets/icon.png" alt="Corecleen Logo" />
-        <p>CORECLEEN <span>SOLUTIONS LIMITED</span></p>
-        <ul id="navMenu">
-          <li><a href="#hero_section">Home</a></li>
-          <li><a href="#feature_container">Feature</a></li>
-          <li><a href="#testimonials_section">Testimonials</a></li>
-          <li><a href="#footer">Contact</a></li>
-        </ul>
-        <div class="toggle" id="toggle">
-          <span></span>
-          <span></span>
-          <span></span>
+      </div>
+      <div class="footer-columns">
+        <!--  Call -->
+        <div class="footer-col">
+          <h4>Call Us</h4>
+          <p>+256 (0) 707265146</p>
+          <p>+256 (0) 786151990</p>
+          <p>+256 (0) 782923848</p>
         </div>
-      </nav>
-    </header>
-    <!-- end of the header -->
-    <main>
-      <section class="hero" id="hero_section">
-        <div class="hero-background">
-          <img
-            src="https://www.bondcleaninginmelbourne.com.au/wp-content/uploads/2021/08/kitchen-cleaning.jpg"
-            alt="Eco-friendly cleaning"
-          />
+
+        <!-- Email & Address -->
+        <div class="footer-col">
+          <h4>Email Us</h4>
+          <p>
+            <a href="mailto:corecleensolutions@gmail.com">corecleensolutions@gmail.com</a>
+          </p>
+
+          <h4>Find Us At</h4>
+          <p>Plot 97 Bukoto street opp. Bin it services</p>
+          <p>P.O. Box 116729 Kampala Uganda</p>
         </div>
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-          <div class="text-carousel">
-            <div class="carousel-slide active">
-              <h1 class="hero-title">SERVICE EXCELLENCE</h1>
-              <p class="hero-subtitle">
-                Responsible for your job and the environment
-              </p>
-              <p class="hero-description">
-                We take responsibility to complete customers' required jobs.
-              </p>
-            </div>
-            <div class="carousel-slide">
-              <h1 class="hero-title">YOUR CLEANING EXPERTS</h1>
-              <p class="hero-subtitle">
-                Tailored solutions for your business needs
-              </p>
-              <p class="hero-description">
-                We provide our clients with top-quality professional and
-                friendly cleaning services.
-              </p>
-            </div>
-            <div class="carousel-slide">
-              <h1 class="hero-title">
-                A TOP QUALITY CLEANING COMPANY IN UGANDA
-              </h1>
-              <p class="hero-subtitle">
-                Most Trusted by People, Businesses, and Organizations
-              </p>
-              <p class="hero-description">
-                We take care of your cleaning needs while you concentrate on
-                running your business.
-              </p>
-            </div>
-          </div>
 
-          <div class="hero-button-container">
-            <button class="hero-button" id="cta-button">GET STARTED</button>
-          </div>
-        </div>
-      </section>
-
-      <section class="emergency-banner">
-        <div class="banner-container">
-          <div class="call-section">
-            <h2>CALL US NOW</h2>
-            <a href="tel:+256707265146" class="phone-number">(256) 707265146</a>
-          </div>
-
-          <div class="service-item">
-            <div class="icon-circle">
-              <img src="./Assets/emergency.jpg" />
-            </div>
-            <div class="service-content">
-              <h3>QUICK CLEANING</h3>
-              <p>
-                Even in a state of urgency, we have fast and efficient emergency
-                cleaners
-              </p>
-            </div>
-          </div>
-
-          <div class="service-item">
-            <div class="icon-circle">
-              <img src="./Assets/clean ground.png" alt="" />
-            </div>
-            <div class="service-content">
-              <h3>FULLY GUARANTEED</h3>
-              <p>
-                We provide the finest quality and eco-friendly cleaning services
-                and solutions
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- feature section -->
-      <section class="feature_container" id="feature_container">
-        <div class="solutions">
-          <center><h2>Why Choose Corecleen Solutions?</h2></center>
-          <center>
-            <p>
-              We are committed to providing exceptional cleaning services that
-              transform your space into a healthy, pristine environment. Our
-              experienced team uses eco-friendly products and advanced
-              techniques to deliver results that exceed your expectations.
-            </p>
-          </center>
-        </div>
-        <div class="my_features">
-          <div class="feature_card">
-            <img src="./Assets/roof.jpeg" alt="Christmas " />
-            <h2>Roof Cleaning</h2>
-            <p>
-              Remove moss, debris, and stains to restore your roof's
-              appearance."
-            </p>
-          </div>
-          <div class="feature_card">
-            <img src="./Assets/Deep cleaning.webp" alt="Deep cleaning " />
-            <h2>Deep cleaning</h2>
-            <p>
-              Thorough cleaning of every corner for a refreshed living space.
-            </p>
-          </div>
-          <div class="feature_card">
-            <img
-              src="./Assets/Garbage collection.jpg"
-              alt="Garbage collection"
-            />
-            <h2>Garbage collection</h2>
-            <p>
-              Reliable, scheduled waste removal to keep your premises spotless.
-            </p>
-          </div>
-          <div class="feature_card">
-            <img src="./Assets/windowcleaning.jpg" alt="Window cleaning" />
-            <h2>Window cleaning</h2>
-            <p>
-              Crystal-clear windows using streak-free techniques and
-              eco-friendly products.
-            </p>
-          </div>
-          <div class="feature_card">
-            <img
-              src="./Assets/Upholstery-Cleaning.jpg"
-              alt="Upholstery Cleaning "
-            />
-            <h2>Upholstery Cleaning</h2>
-            <p>
-              Gentle yet powerful cleaning to refresh your furniture’s fabric.
-            </p>
-          </div>
-          <div class="feature_card">
-            <img src="./Assets/post.jpeg" alt="Post-construction cleaning" />
-            <h2>Post-construction cleaning</h2>
-            <p>
-              Remove dust, debris, and residue after construction or renovation
-              work.
-            </p>
-          </div>
-        </div>
-      </section>
-      <!-- Testimonials Section -->
-      <!-- Testimonials Section -->
-      <section class="testimonials-section" id="testimonials_section">
-        <div class="testimonials-container">
-          <div class="testimonials-header">
-            <h2>What Our Clients Say</h2>
-          </div>
-
-          <div class="testimonial-carousel">
-            <div class="testimonial-card active">
-              <div class="testimonial-header">
-                <div class="profile-circle">EM</div>
-                <div class="reviewer-info">
-                  <h3>Emily Morgan</h3>
-                  <span class="test-badge"
-                    >Residential Cleaning – April 2025</span
-                  >
-                </div>
-              </div>
-              <p class="testimonial-quote">
-                "Corecleen Solutions exceeded my expectations! My apartment was
-                spotless, and they even tackled areas I didn’t expect. I highly
-                recommend them for anyone needing a thorough home clean."
-              </p>
-            </div>
-
-            <div class="testimonial-card">
-              <div class="testimonial-header">
-                <div class="profile-circle">DP</div>
-                <div class="reviewer-info">
-                  <h3>David Peterson</h3>
-                  <span class="test-badge">Office Cleaning – March 2025</span>
-                </div>
-              </div>
-              <p class="testimonial-quote">
-                "Our office looks brand new after every visit from Corecleen.
-                The team is punctual, professional, and leaves no corner
-                untouched. It’s been a game changer for our work environment."
-              </p>
-            </div>
-
-            <div class="testimonial-card">
-              <div class="testimonial-header">
-                <div class="profile-circle">LK</div>
-                <div class="reviewer-info">
-                  <h3>Linda Kasozi</h3>
-                  <span class="test-badge"
-                    >Post-Construction Cleaning – February 2025</span
-                  >
-                </div>
-              </div>
-              <p class="testimonial-quote">
-                "After our renovation, Corecleen made the entire place move-in
-                ready. They handled dust, debris, and windows with amazing
-                attention to detail. I wouldn’t go with anyone else!"
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <!-- end the main content -->
-    <footer class="footer">
-      <div class="footer-container">
-        <div class="footer-logo">
-          <img src="./Assets/icon.png" alt="Corecleen Logo" />
-        </div>
-        <div class="footer-columns">
-          <!--  Call -->
-          <div class="footer-col">
-            <h4>Call Us</h4>
-            <p>+256 (0) 707265146</p>
-            <p>+256 (0) 786151990</p>
-            <p>+256 (0) 782923848</p>
-          </div>
-
-          <!-- Email & Address -->
-          <div class="footer-col">
-            <h4>Email Us</h4>
-            <p>
-              <a href="mailto:corecleensolutions@gmail.com"
-                >corecleensolutions@gmail.com</a
-              >
-            </p>
-
-            <h4>Find Us At</h4>
-            <p>Plot 97 Bukoto street opp. Bin it services</p>
-            <p>P.O. Box 116729 Kampala Uganda</p>
-          </div>
-
-          <!-- Social Media -->
-          <div class="footer-col">
-            <h4>Connect With Us Via Social Media</h4>
-            <div class="social-icons">
-              <a href="#"
-                ><img src="./Assets/facebook.jpeg" alt="Facebook"
-              /></a>
-              <a href="#"><img src="./Assets/twitter.png" alt="Twitter" /></a>
-              <a href="#"><img src="./Assets/linked.webp" alt="LinkedIn" /></a>
-              <a href="#"
-                ><img src="./Assets/instagram.webp" alt="Instagram"
-              /></a>
-            </div>
+        <!-- Social Media -->
+        <div class="footer-col">
+          <h4>Connect With Us Via Social Media</h4>
+          <div class="social-icons">
+            <a href="#"><img src="./Assets/facebook.jpeg" alt="Facebook" /></a>
+            <a href="#"><img src="./Assets/twitter.png" alt="Twitter" /></a>
+            <a href="#"><img src="./Assets/linked.webp" alt="LinkedIn" /></a>
+            <a href="#"><img src="./Assets/instagram.webp" alt="Instagram" /></a>
           </div>
         </div>
       </div>
-    </footer>
-
-    <!-- Modal Popup -->
-    <div class="modal-overlay" id="modal">
-      <div class="modal">
-        <span class="close-modal">&times;</span>
-        <h2>Get started</h2>
-        <form id="signup-form">
-          <div class="form-group">
-            <label for="name">Full Name</label>
-            <input type="text" id="name" name="name" required />
-          </div>
-          <div class="form-group">
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" required />
-          </div>
-          <div class="form-group">
-            <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="phone" required />
-          </div>
-          <div class="form-group">
-            <label for="service">Service Needed</label>
-            <select id="service" name="service" required>
-              <option value="">Select a service</option>
-              <option value="Office Cleaning">Office Cleaning</option>
-              <option value="Roof Cleaning">Roof Cleaning</option>
-              <option value="Home deep Cleaning">Home deep Cleaning</option>
-              <option value="Home basic Cleaning">Home basic Cleaning</option>
-              <option value="Fumigation Cleaning">Fumigation Cleaning</option>
-              <option value="Retail Cleaning">Retail Cleaning</option>
-              <option value="Garbage collection">Garbage collection</option>
-              <option value="Upholstery Cleaning">Upholstery Cleaning</option>
-              <option value="Tenancy Cleaning">Tenancy Cleaning</option>
-              <option value="other">Other</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="message">Additional Information</label>
-            <textarea id="message" name="message" rows="4"></textarea>
-          </div>
-          <button type="submit" class="form-submit">Submit Request</button>
-        </form>
-      </div>
     </div>
+  </footer>
 
-    <!-- Scroll to Top Button -->
-    <div class="scroll-to-top">
-      <img src="./Assets/icon3.webp" alt="Scroll to top" />
+  <!-- Modal Popup -->
+  <div class="modal-overlay" id="modal">
+    <div class="modal">
+      <span class="close-modal">&times;</span>
+      <h2>Get started</h2>
+      <form id="signup-form">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" required />
+        </div>
+        <div class="form-group">
+          <label for="service">Service Needed</label>
+          <select id="service" name="service" required>
+            <option value="">Select a service</option>
+            <option value="Office Cleaning">Office Cleaning</option>
+            <option value="Roof Cleaning">Roof Cleaning</option>
+            <option value="Home deep Cleaning">Home deep Cleaning</option>
+            <option value="Home basic Cleaning">Home basic Cleaning</option>
+            <option value="Fumigation Cleaning">Fumigation Cleaning</option>
+            <option value="Retail Cleaning">Retail Cleaning</option>
+            <option value="Garbage collection">Garbage collection</option>
+            <option value="Upholstery Cleaning">Upholstery Cleaning</option>
+            <option value="Tenancy Cleaning">Tenancy Cleaning</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Additional Information</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+        </div>
+        <button type="submit" class="form-submit">Sign up for early access </button>
+      </form>
     </div>
+  </div>
 
-    <script src="./script.js"></script>
-  </body>
+  <!-- Scroll to Top Button -->
+  <div class="scroll-to-top">
+    <img src="./Assets/icon3.webp" alt="Scroll to top" />
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
 </html>
